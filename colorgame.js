@@ -125,7 +125,7 @@ for(var i = 0; i < squares.length; i++)
 		else if( lcount === 0)
 		{
 			life.textContent = "life " +lcount;
-			message.textContent = "No more lives, try new game"
+			message.textContent = "No more lives!"
 			btn.textContent = "Play Again?"		
 		}
 		else {
